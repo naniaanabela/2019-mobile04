@@ -20,7 +20,6 @@ public class ImplicitIntentActivity extends AppCompatActivity {
     private static final String TAG = ImplicitIntentActivity.class.getCanonicalName();
     private static final int GALLERY_REQUEST_CODE = 1;
 
-
     private ImageView avatarImage;
 
     @Override
@@ -28,6 +27,7 @@ public class ImplicitIntentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_implicit_intent);
         avatarImage = findViewById(R.id.image_avatar);
+
     }
 
     @Override
